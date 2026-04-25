@@ -3,12 +3,12 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 0 * * *"  # 每天 UTC 时间 0 点运行
-  
+
   workflow_dispatch:  # 允许手动触发
-  
+
   push:
     branches:
-      - master  # 假设你使用 master 作为默认分支
+      - main  # 默认分支
 
 jobs:
   generate:
@@ -34,4 +34,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用默认的 GITHUB_TOKEN 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用默认的 GITHUB_TOKEN
