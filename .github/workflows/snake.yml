@@ -21,6 +21,9 @@ jobs:
       contents: write
 
     steps:
+      - name: 由 runner 创建可写的产物目录
+        run: mkdir -p dist
+
       - name: 生成贡献动画
         uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
