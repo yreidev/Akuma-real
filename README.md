@@ -1,96 +1,39 @@
-<div align="center">
-  <img
-    width="100%"
-    alt="Akuma-real profile banner"
-    src="https://capsule-render.vercel.app/api?type=waving&height=190&section=header&color=0:EAF5FF,45:FFF1F7,100:EEFFF7&text=Akuma-real&fontAlign=50&fontAlignY=36&fontSize=46&fontColor=334155&animation=fadeIn&desc=Full-stack%20Engineer%20/%20AI%20Tools%20/%20Automation&descAlign=50&descAlignY=58&descSize=18"
-  />
+<p>
+<a href="https://yrei.dev/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/yreidev/yreidev/main/assets/yrei-compact.webp">
+    <img src="./assets/yrei.webp" width="100%" alt="Yrei · 灵，居于系统之间。金色轨道穿过由星尘聚成的「霊」。打开 yrei.dev。">
+  </picture>
+</a>
+</p>
 
-  <img
-    alt="Typing animation"
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=24&duration=3200&pause=900&color=5B8DEF&center=true&vCenter=true&width=760&lines=Full-stack+Engineer;AI+Tools+%26+Automation;Clean+systems%2C+calm+interfaces"
-  />
-</div>
+**Yrei** 读作 *Y-ray*，名字来自日语「幽霊」。这里做自托管软件，也做从终端和手机连回自己服务器的工具。<br>Self-hosted software, and the tools to reach it from a terminal or a phone.
 
-<br>
+[个人站点 / Website ↗](https://yrei.dev/) · [全部仓库 / Repositories ↗](https://github.com/yreidev?tab=repositories)
 
-## About / 关于我
+## 开源作品 / Selected work
 
-I build practical products across web, backend, desktop, and automation, with a current focus on AI-assisted workflows and clean developer tools.
+### [WorkBuddy2API Panel](https://github.com/yreidev/workbuddy2api-panel)
 
-我是一名全栈工程师，关注 Web、后端、桌面端与自动化工程，也在持续构建更顺手的 AI 工具链。
+用 Claude Code 或 Codex 连上腾讯 WorkBuddy。这个独立维护的增强版在自己的服务器上运行，模型路由和账号状态都能在面板里查看。<br>A self-hosted gateway that connects Claude Code and Codex to Tencent WorkBuddy.
 
-- Currently exploring: Codex workflows, local automation, TUI tools, and product-grade engineering loops.
-- 当前关注：Codex 工作流、本地自动化、TUI 工具，以及可长期维护的工程闭环。
-- Design taste: quiet interfaces, readable systems, and small interactions that feel polished.
-- 设计偏好：清爽克制的界面、易读的系统结构，以及优雅但不过度的动态细节。
+[下载发行版 / Releases](https://github.com/yreidev/workbuddy2api-panel/releases/latest) · [部署指南 / Deployment](https://github.com/yreidev/workbuddy2api-panel/blob/main/docs/deployment.md)
 
-## Tech Stack / 技术栈
+**[Sub2API SGM](https://github.com/yreidev/sub2api-sgm)** · 模型接入 / API access<br>为 Sub2API 做的用户端。选模型、拿密钥、查请求明细，都在同一个入口。<br>Find a model, get an API key, and inspect requests in one place.
 
-<div align="center">
-  <img
-    alt="Technology icons"
-    src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,go,python,docker,linux,git,githubactions,postgres,redis&perline=7"
-  />
-</div>
+**[Tillbox](https://github.com/yreidev/Tillbox)** · 自托管收银台 / Checkout<br>把收银台放在自己的服务器上，兼容易支付 V1 和 V2，后台能逐笔核对订单与到账流水。<br>A self-hosted checkout that pairs payment records with orders.
 
-## Selected Public Work / 公开项目精选
+**[AcePocket](https://github.com/yreidev/AcePocket)** · 手机运维 / Mobile admin<br>非官方 AcePanel 客户端。从手机直连自己的面板，查看负载、容器和日志，也能切换服务器。<br>An unofficial Flutter client for managing AcePanel servers from a phone.
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>
-        <a href="https://github.com/Akuma-real/codex-canvas">CodexCanvas</a>
-      </h3>
-      <p>
-        A Codex CLI based image workflow TUI for reference images, generation sessions, and export-friendly local tooling.
-      </p>
-      <p>
-        基于 Codex CLI 的图像工作流 TUI，面向参考图、生成会话与本地导出流程。
-      </p>
-      <p>
-        <a href="https://github.com/Akuma-real/codex-canvas">
-          <img alt="Open repository" src="https://img.shields.io/badge/Open%20Repository-5B8DEF?style=flat-square&logo=github&logoColor=white">
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+---
 
-## GitHub Stats / GitHub 统计
+**上游贡献 / Upstream** · 为 CC Switch 补上 Qwen4 Max 的模型定价数据。[已合并的 PR #9612 ↗](https://github.com/farion1231/cc-switch/pull/9612)
 
-<div align="center">
-  <img
-    height="150"
-    alt="Akuma-real GitHub stats"
-    src="https://github-readme-stats.vercel.app/api?username=Akuma-real&show_icons=true&rank_icon=github&hide_border=true&bg_color=ffffff00&title_color=5B8DEF&text_color=475569&icon_color=F7A7C4"
-  />
-  <img
-    height="150"
-    alt="Akuma-real top languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akuma-real&layout=compact&hide_border=true&bg_color=ffffff00&title_color=5B8DEF&text_color=475569"
-  />
-</div>
+<details>
+  <summary>看看贡献轨迹 / Contribution trail</summary>
 
-<div align="center">
-  <img
-    width="96%"
-    alt="Akuma-real GitHub activity graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Akuma-real&bg_color=ffffff&color=475569&line=8BB8FF&point=F7A7C4&area=true&area_color=EAF5FF&hide_border=true&radius=8&custom_title=Akuma-real%20Contribution%20Flow"
-  />
-</div>
-
-## Contribution Snake / 贡献图
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akuma-real/Akuma-real/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akuma-real/Akuma-real/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Akuma-real/Akuma-real/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
-
-<div align="center">
-  <a href="https://github.com/Akuma-real">
-    <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-Akuma--real-5B8DEF?style=flat-square&logo=github&logoColor=white">
-  </a>
-</div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yreidev/yreidev/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/yreidev/yreidev/output/github-contribution-grid-snake.svg" width="100%" alt="贪吃蛇沿着 @yreidev 的 GitHub 贡献图移动">
+  </picture>
+</details>
